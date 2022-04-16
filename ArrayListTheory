@@ -1,0 +1,10 @@
+Array List store objects
+Array List is non continuous
+Array list store in heap
+BASIC FUNCTIONS
+    ADD     add()
+    VIEW    get(index)
+    UPDATE   add(index,element)
+    DELETE  remove()
+    replace (index,element)
+    ITTERATE    Collections.sort()
