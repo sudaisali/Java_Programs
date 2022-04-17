@@ -1,4 +1,4 @@
-package Inheritance;
+package Object_Oriented;
 
  class Animal {
    public void eat(){
