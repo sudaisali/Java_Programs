@@ -18,8 +18,6 @@ package Object_Oriented;
          Student(String name , int id , int age , int number,String gender){
              this(name, id, age, number); //constructor reuse
              this.gender = gender;
-
-
          }
 
          Student(Student s1){  //Copy constructor
