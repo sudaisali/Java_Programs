@@ -1,8 +1,10 @@
+package ArrayList;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class ArrayListClass {
+public class ArrayList_Class {
     ArrayList<Integer> list = new ArrayList<>();
     Scanner sc = new Scanner(System.in);
     int size;
