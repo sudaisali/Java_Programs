@@ -8,6 +8,7 @@ package Object_Oriented;
         String gender;
        // this is a reference variable that refers to the current object.
          Student(String name , int id , int age , int number){  // parametrize constructor
+
            this. name = name;
           this.  age = age;
           this.  id = id;
@@ -22,7 +23,10 @@ package Object_Oriented;
          }
 
          Student(Student s1){  //Copy constructor
-             System.out.println(s1.name);
+
+             this.name = s1.name;
+             this.age = s1.age;
+             this.id = s1.id;
          }
 
         public void display(){
@@ -42,6 +46,7 @@ public class Studentmain {
         Student s3 = new Student(s1);
         s1.display();
         s2.display();
+        s3.display();
         s4.display();
 
     }
